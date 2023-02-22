@@ -1,0 +1,147 @@
+.h1{
+  text-align: left;
+  margin-top: 210px;
+  text-indent: 45px;
+}
+
+.pic{
+  margin-left: 690px;
+  bottom: 190px;
+
+}
+
+
+.HOME:link,
+.HOME:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ left: 600px;
+ bottom: 160px;
+}
+
+.HOME:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.HOME:active {
+ transform: translateY(-3px);
+}
+
+.HOME::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.HOME:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+
+
+.ABOUTUS:link,
+.ABOUTUS:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ left: 620px ;
+ bottom: 160px;
+}
+
+.ABOUTUS:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.ABOUTUS:active {
+ transform: translateY(-3px);
+}
+
+.ABOUTUS::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.ABOUTUS:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+
+
+.INFO:link,
+.INFO:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ border-radius: 1000px;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+ left: 640px ;
+ bottom: 160px;
+}
+
+.INFO:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
+}
+
+.INFO:active {
+ transform: translateY(-3px);
+}
+
+.INFO::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.INFO:hover::after {
+ background-color: rgb(0, 238, 255);
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+
